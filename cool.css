@@ -1,4 +1,40 @@
 body {
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff0f5;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #6b4357;
+    text-align: center;
+}
+
+h1 {
+    color: #e879a9;
+    font-size: 36px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #d65d91;
+    margin-bottom: 5px;
+}
+
+p {
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
